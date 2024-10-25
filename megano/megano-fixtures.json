@@ -1,0 +1,4016 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-10-20T17:29:42.347Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Category (PK=1 | Tite=Notebook)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"category image\", \"object\": \"Category Image (PK=1 | alt=Notebook)\"}}, {\"added\": {\"name\": \"sub category\", \"object\": \"SubCategory (PK=1 | Tite=Game Notebook)\"}}, {\"added\": {\"name\": \"sub category image\", \"object\": \"Subcategory Image (PK=1 | alt=Game Notebook)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-10-20T17:29:52.131Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Tag (PK=1 | Tag=Notebook)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-10-20T17:29:57.474Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Tag (PK=2 | Tag=Game Notebook)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-10-20T17:31:24.873Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Product (PK=1 | Title=ACER Nitro AN515-43 Obsidian Black)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=1 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=2 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=3 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=4 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=5 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=6 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=7 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=8 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=9 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=10 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=1 | alt=acer-nitro)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-10-20T17:32:04.892Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Product (PK=1 | Title=ACER Nitro AN515-43 Obsidian Black)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-10-20T17:39:13.324Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Product (PK=2 | Title=NB Lenovo 15.6\" IdeaPad Slim 3 15AMN8 Grey)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=11 | Name=Lenovo \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=12 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=13 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=14 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=15 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=16 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=17 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=18 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=19 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=20 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=21 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=22 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=23 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=24 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=2 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=3 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=4 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-10-20T17:41:12.796Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Tag (PK=3 | Tag=office)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-10-20T17:43:55.892Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Product (PK=3 | Title=HP Laptop 15 Jet Black (15-fd0068ci))",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=25 | Name=HP \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=26 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=27 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=28 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=29 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=30 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=31 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=32 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=33 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=34 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=35 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=36 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=37 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=38 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=5 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=6 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=7 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-10-20T17:44:36.084Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "Sale (PK=1 | Title=HP Laptop 15 Jet Black (15-fd0068ci))",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"sale image\", \"object\": \"Image (PK=1) | alt=1\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-10-20T17:44:38.934Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Product (PK=3 | Title=HP Laptop 15 Jet Black (15-fd0068ci))",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Sales\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-10-22T05:05:40.454Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Tag (PK=4 | Tag=Apple)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-10-22T05:05:48.384Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Tag (PK=3 | Tag=Office)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-10-22T05:08:48.064Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Product (PK=4 | Title=Apple MacBook Pro 16.2\" M1 Max/10CPU/32GPU 64/2TB Space Gray RU)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=39 | Name=Apple \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=40 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=41 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=42 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=43 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=44 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=45 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=46 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=47 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=48 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=49 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=50 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=51 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=52 | Name=\\u0422\\u0438\\u043f \\u0433\\u0440\\u0430\\u0444\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0433\\u043e \\u044f\\u0434\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=53 | Name=\\u041e\\u0441\\u043e\\u0431\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=54 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=8 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=9 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=10 | alt=3)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=11 | alt=4)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-10-22T05:09:55.471Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "2",
+      "object_repr": "Sale (PK=2 | Title=Apple MacBook Pro 16.2\" M1 Max/10CPU/32GPU 64/2TB Space Gray RU)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"sale image\", \"object\": \"Image (PK=2) | alt=1\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-10-22T05:09:57.855Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Product (PK=4 | Title=Apple MacBook Pro 16.2\" M1 Max/10CPU/32GPU 64/2TB Space Gray RU)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Limited\", \"Banners\", \"Sales\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-10-22T05:16:36.527Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Product (PK=5 | Title=NB ASUS 14.0\" Zenbook 14 OLED UX3405MA)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=55 | Name=Asus \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=56 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=57 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=58 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=59 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=60 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=61 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=62 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=63 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=64 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=65 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=66 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=67 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=68 | Name=\\u0422\\u0438\\u043f \\u0433\\u0440\\u0430\\u0444\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0433\\u043e \\u044f\\u0434\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=69 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=12 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=13 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=14 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-10-22T05:20:50.564Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Product (PK=6 | Title=Lenovo ThinkBook 16 G4+ IAP Arctic Grey - 16\" WQXGA IPS 350nits)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=70 | Name=Lenovo \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=71 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=72 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=73 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=74 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=75 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=76 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=77 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=78 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=79 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=80 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=81 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=82 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=83 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=15 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=16 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=17 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-10-22T05:21:01.997Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Product (PK=6 | Title=Lenovo ThinkBook 16 G4+ IAP Arctic Grey - 16\" WQXGA IPS 350nits)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"FreeDelivery\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-10-22T05:25:10.238Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Product (PK=7 | Title=Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=84 | Name=Apple \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=85 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=86 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=87 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=88 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=89 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=90 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=91 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=92 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=93 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=94 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=95 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=96 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=97 | Name=\\u0422\\u0438\\u043f \\u0433\\u0440\\u0430\\u0444\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0433\\u043e \\u044f\\u0434\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=98 | Name=\\u041e\\u0441\\u043e\\u0431\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=99 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=18 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=19 | alt=2)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-10-22T05:25:37.232Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "3",
+      "object_repr": "Sale (PK=3 | Title=Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"sale image\", \"object\": \"Image (PK=3) | alt=1\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-10-22T05:25:39.522Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Product (PK=7 | Title=Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Sales\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-10-22T05:29:30.309Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Product (PK=8 | Title=Huawei MateBook D15 Silver 15)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=100 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=101 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=102 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=103 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=104 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=105 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=106 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=107 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=108 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=109 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=110 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=111 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=112 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=20 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=21 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=22 | alt=3)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=23 | alt=4)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-10-22T05:40:20.904Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "Product (PK=9 | Title=15.6\" HP 250 G9 Black, Intel i3-1215U)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=113 | Name=HP \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=114 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=115 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=116 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=117 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=118 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=119 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=120 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=121 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=122 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=123 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=124 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=125 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=126 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=24 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=25 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=26 | alt=3)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=27 | alt=4)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-10-22T05:45:54.084Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Product (PK=10 | Title=NB ASUS 15.6\" ExpertBook B2 Flip B2502FBA)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=127 | Name=Asus \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=128 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=129 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=130 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=131 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=132 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=133 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=134 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=135 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=136 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=137 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=138 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=139 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=140 | Name=\\u0422\\u0438\\u043f \\u0433\\u0440\\u0430\\u0444\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0433\\u043e \\u044f\\u0434\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=141 | Name=\\u041e\\u0441\\u043e\\u0431\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=142 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=28 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=29 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=30 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-10-22T05:46:29.555Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "4",
+      "object_repr": "Sale (PK=4 | Title=NB ASUS 15.6\" ExpertBook B2 Flip B2502FBA)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"sale image\", \"object\": \"Image (PK=4) | alt=1\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-10-22T05:46:32.413Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Product (PK=10 | Title=NB ASUS 15.6\" ExpertBook B2 Flip B2502FBA)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Sales\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-10-22T05:51:23.671Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Product (PK=11 | Title=HP Pavilion 15 Natural Silver (15-eh3027ci),)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=143 | Name=HP \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=144 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=145 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=146 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=147 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=148 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=149 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=150 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=151 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=152 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=153 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=154 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=155 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=156 | Name=\\u041e\\u0441\\u043e\\u0431\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=157 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=31 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=32 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=33 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-10-22T05:54:52.567Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "Product (PK=12 | Title=NB ASUS 16.0\" Zenbook S 16 OLED UM5606WA Gray)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=158 | Name=Asus \\u0421\\u0435\\u0440\\u0438\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=159 | Name=\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=160 | Name=\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=161 | Name=\\u0427\\u0430\\u0441\\u0442\\u043e\\u0442\\u0430 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=162 | Name=\\u041b\\u0438\\u043d\\u0435\\u0439\\u043a\\u0430 (CPU))\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=163 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u043f\\u0440\\u043e\\u0446\\u0435\\u0441\\u0441\\u043e\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=164 | Name=\\u0422\\u0438\\u043f \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=165 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043e\\u043f\\u0435\\u0440\\u0430\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u043f\\u0430\\u043c\\u044f\\u0442\\u0438)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=166 | Name=\\u0422\\u0438\\u043f \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=167 | Name=\\u041e\\u0431\\u044a\\u0435\\u043c \\u043d\\u0430\\u043a\\u043e\\u043f\\u0438\\u0442\\u0435\\u043b\\u044f)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=168 | Name=\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c \\u0412\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=169 | Name=\\u0421\\u0435\\u0440\\u0438\\u044f \\u0434\\u0438\\u0441\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0432\\u0438\\u0434\\u0435\\u043e\\u043a\\u0430\\u0440\\u0442\\u044b)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=170 | Name=\\u041a\\u043b\\u0430\\u0432\\u0438\\u0430\\u0442\\u0443\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=171 | Name=\\u0422\\u0438\\u043f \\u0433\\u0440\\u0430\\u0444\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0433\\u043e \\u044f\\u0434\\u0440\\u0430)\"}}, {\"added\": {\"name\": \"specification\", \"object\": \"Spec (PK=172 | Name=OS)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=34 | alt=1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=35 | alt=2)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image (PK=36 | alt=3)\"}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add profile",
+      "content_type": 7,
+      "codename": "add_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change profile",
+      "content_type": 7,
+      "codename": "change_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete profile",
+      "content_type": 7,
+      "codename": "delete_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view profile",
+      "content_type": 7,
+      "codename": "view_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add avatar",
+      "content_type": 8,
+      "codename": "add_avatar"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change avatar",
+      "content_type": 8,
+      "codename": "change_avatar"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete avatar",
+      "content_type": 8,
+      "codename": "delete_avatar"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view avatar",
+      "content_type": 8,
+      "codename": "view_avatar"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add product",
+      "content_type": 9,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change product",
+      "content_type": 9,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete product",
+      "content_type": 9,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view product",
+      "content_type": 9,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add tag",
+      "content_type": 10,
+      "codename": "add_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change tag",
+      "content_type": 10,
+      "codename": "change_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete tag",
+      "content_type": 10,
+      "codename": "delete_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view tag",
+      "content_type": 10,
+      "codename": "view_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add specification",
+      "content_type": 11,
+      "codename": "add_specification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change specification",
+      "content_type": 11,
+      "codename": "change_specification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete specification",
+      "content_type": 11,
+      "codename": "delete_specification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view specification",
+      "content_type": 11,
+      "codename": "view_specification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add review",
+      "content_type": 12,
+      "codename": "add_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change review",
+      "content_type": 12,
+      "codename": "change_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete review",
+      "content_type": 12,
+      "codename": "delete_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view review",
+      "content_type": 12,
+      "codename": "view_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add image",
+      "content_type": 13,
+      "codename": "add_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change image",
+      "content_type": 13,
+      "codename": "change_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete image",
+      "content_type": 13,
+      "codename": "delete_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view image",
+      "content_type": 13,
+      "codename": "view_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 14,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 14,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 14,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 14,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add sale",
+      "content_type": 15,
+      "codename": "add_sale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change sale",
+      "content_type": 15,
+      "codename": "change_sale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete sale",
+      "content_type": 15,
+      "codename": "delete_sale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view sale",
+      "content_type": 15,
+      "codename": "view_sale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add sub category",
+      "content_type": 16,
+      "codename": "add_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change sub category",
+      "content_type": 16,
+      "codename": "change_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete sub category",
+      "content_type": 16,
+      "codename": "delete_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view sub category",
+      "content_type": 16,
+      "codename": "view_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add sub category image",
+      "content_type": 17,
+      "codename": "add_subcategoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change sub category image",
+      "content_type": 17,
+      "codename": "change_subcategoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete sub category image",
+      "content_type": 17,
+      "codename": "delete_subcategoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view sub category image",
+      "content_type": 17,
+      "codename": "view_subcategoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add sale image",
+      "content_type": 18,
+      "codename": "add_saleimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change sale image",
+      "content_type": 18,
+      "codename": "change_saleimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete sale image",
+      "content_type": 18,
+      "codename": "delete_saleimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view sale image",
+      "content_type": 18,
+      "codename": "view_saleimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add category image",
+      "content_type": 19,
+      "codename": "add_categoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change category image",
+      "content_type": 19,
+      "codename": "change_categoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete category image",
+      "content_type": 19,
+      "codename": "delete_categoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view category image",
+      "content_type": 19,
+      "codename": "view_categoryimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add basket",
+      "content_type": 20,
+      "codename": "add_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change basket",
+      "content_type": 20,
+      "codename": "change_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete basket",
+      "content_type": 20,
+      "codename": "delete_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view basket",
+      "content_type": 20,
+      "codename": "view_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add orders data",
+      "content_type": 21,
+      "codename": "add_ordersdata"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change orders data",
+      "content_type": 21,
+      "codename": "change_ordersdata"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete orders data",
+      "content_type": 21,
+      "codename": "delete_ordersdata"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view orders data",
+      "content_type": 21,
+      "codename": "view_ordersdata"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add order",
+      "content_type": 22,
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change order",
+      "content_type": 22,
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete order",
+      "content_type": 22,
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view order",
+      "content_type": 22,
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add payment",
+      "content_type": 23,
+      "codename": "add_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change payment",
+      "content_type": 23,
+      "codename": "change_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete payment",
+      "content_type": 23,
+      "codename": "delete_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view payment",
+      "content_type": 23,
+      "codename": "view_payment"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$8EB3xa2A7bnrQQZYY2RcBU$te/w4PnDc8Z0qdR5b/Qu+l8541m/YiIpZVvvUMDn5Y8=",
+      "last_login": "2024-10-22T05:58:46.430Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-20T17:25:03.655Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$9flYasgCZpnESq3HUauwg4$zgyZje3F3+f4XMsQhRP3Sd2BJmufbkW5fWmb7nOWKKA=",
+      "last_login": "2024-10-22T06:48:09.069Z",
+      "is_superuser": false,
+      "username": "john",
+      "first_name": "John",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-22T06:48:08.592Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "profiles",
+      "model": "profile"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "profiles",
+      "model": "avatar"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "goods",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "goods",
+      "model": "tag"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "goods",
+      "model": "specification"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "goods",
+      "model": "review"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "goods",
+      "model": "image"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "catalog",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "catalog",
+      "model": "sale"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "catalog",
+      "model": "subcategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "catalog",
+      "model": "subcategoryimage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "catalog",
+      "model": "saleimage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "catalog",
+      "model": "categoryimage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "basket",
+      "model": "basket"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+      "app_label": "orders",
+      "model": "ordersdata"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+      "app_label": "orders",
+      "model": "order"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+      "app_label": "payment",
+      "model": "payment"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gfg8egzhbrhmr9gfr7dw4y0y8xk82a83",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAUBf-FtSE8C7h0328gcLlI1UBS2pXx3y1JF7qdmXPexId9K37vuPolkSsR5PLLYoAn1iHSI9R7o9Dqti6RjoSettO5JXzdzvbvoIRexlplq5zKRgOLwinrjLLR8ojByTwdDNFImQ1M3FiHOgPnyIAZLeyRkc8X1jA3Yg:1t38gb:EDclu8mcE78JRcFU8wn5IFleqzq6z0l2U9zNpyL1XGk",
+      "expire_date": "2024-11-05T06:48:09.072Z"
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "fullName": "admin",
+      "phone": "9999999999",
+      "email": "admin@mail.ru"
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "fullName": "Jhon",
+      "phone": "9999999999",
+      "email": "Jhon@gmail.com"
+    }
+  },
+  {
+    "model": "profiles.avatar",
+    "pk": 1,
+    "fields": {
+      "profile": 2,
+      "src": "profiles/avatars/John_Cena_2024.jpg",
+      "alt": ""
+    }
+  },
+  {
+    "model": "goods.tag",
+    "pk": 1,
+    "fields": {
+      "name": "Notebook"
+    }
+  },
+  {
+    "model": "goods.tag",
+    "pk": 2,
+    "fields": {
+      "name": "Game Notebook"
+    }
+  },
+  {
+    "model": "goods.tag",
+    "pk": 3,
+    "fields": {
+      "name": "Office"
+    }
+  },
+  {
+    "model": "goods.tag",
+    "pk": 4,
+    "fields": {
+      "name": "Apple"
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "price": "816.00",
+      "count": 3,
+      "date": "2024-10-20T17:31:24.868Z",
+      "title": "ACER Nitro AN515-43 Obsidian Black",
+      "description": "Игровой ноутбук подходящий именно Вам.",
+      "fullDescription": "Четкость и яркость под любым углом\r\n\r\nНаслаждайтесь яркостью красок в предельной четкости, отображающихся на дисплее Full HD с матрицей IPS. Разрешение 1920 x 1080 при соотношении сторон экрана 16:9 придает играм и фильмам особый реализм и зрелищность. Вы различите все детали и легко прочитаете мелкий шрифт.\r\n\r\nЗвук уровня Dolby Audio Premium\r\n\r\nТехнология Dolby Audio Premium гармонично дополняет визуальный ряд богатым насыщенным звучанием. Она поддерживает качество звука на уровне домашнего кинотеатра и динамически настраивает аудиопараметры, обеспечивая полный эффект присутствия. Благодаря мощным басам и широкому диапазону громкости звук при желании можно настроить так, что его будет слышно всей компании.\r\n\r\nAcer CoolBoost\r\n\r\nСистема охлаждения с двумя вентиляторами способна снизить температуру процессора/видеокарты на 11% и дает возможность пользователям вручную управлять охлаждением через технологию Acer CoolBoost.\r\n\r\nРеалистичный виртуальный мир\r\n\r\nВидеокарта AMD Radeon RX 560X дарит свободу действий в многогранном виртуальном мире.\r\n\r\nБыстрая обработка данных\r\n\r\nПроцессор AMD Ryzen 5 3550Н обеспечивает быстрый запуск современных игр и плавное воспроизведение самых красочных фильмов.\r\n\r\nAcer NitroSense\r\n\r\nС программным обеспечением NitroSense вы улучшите свои результаты в играх благодаря возможности отслеживать и контролировать системную информацию, показатели температуры и загрузки процессора и видеокарты, а также скорость работы вентиляторов в режиме реального времени.\r\n\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 4.333333333333333,
+      "limited": true,
+      "sales": null,
+      "banners": false,
+      "tags": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "price": "368.00",
+      "count": 10,
+      "date": "2024-10-20T17:39:13.317Z",
+      "title": "NB Lenovo 15.6\" IdeaPad Slim 3 15AMN8 Grey",
+      "description": "Надежный помощник с поддержкой интеллектуальных функций.",
+      "fullDescription": "C ноутбуком IdeaPad Slim 3 вы обязательно привлечете внимание окружающих, куда бы вы ни направились. Он обладает небольшим весом и на 10 % тоньше по сравнению с моделями предыдущего поколения. Ноутбук предлагается в трех вариантах цветового исполнения: «арктический серый», «синяя бездна» и «морозный синий». Прочный корпус протестирован на соответствие требованиям военных стандартов и способен выдержать любые испытания.",
+      "freeDelivery": true,
+      "rating": 0.0,
+      "limited": true,
+      "sales": null,
+      "banners": true,
+      "tags": []
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "price": "470.02",
+      "count": 15,
+      "date": "2024-10-20T17:43:55.885Z",
+      "title": "HP Laptop 15 Jet Black (15-fd0068ci)",
+      "description": "Создан, чтобы вы всегда были на связи",
+      "fullDescription": "Создан для сотрудничества благодаря камере с технологией HP True Vision 4 со шторкой конфиденциальности, двойными микрофонами и усовершенствованной функцией шумоподавления. Надежный процессор Intel® 5, большая емкость накопителя, быстрое соединение и большой объем памяти помогут вам встретить любой день и быть готовым ко всему. Это устройство имеет сертификацию EPEAT® Gold и сертификацию ENERGY STAR® 6 и гарантирует четкое качество изображения на 15,6-дюймовом дисплее.",
+      "freeDelivery": true,
+      "rating": 0.0,
+      "limited": true,
+      "sales": 1,
+      "banners": true,
+      "tags": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "price": "4851.00",
+      "count": 3,
+      "date": "2024-10-22T05:08:48.053Z",
+      "title": "Apple MacBook Pro 16.2\" M1 Max/10CPU/32GPU 64/2TB Space Gray RU",
+      "description": "Мы создали самый мощный MacBook Pro в истории. И это монстр. Супербыстрые M1 Pro и M1",
+      "fullDescription": "Суперсила профессионалов\r\nМы создали самый мощный MacBook Pro в истории. И это монстр. Супербыстрые M1 Pro и M1 Max — первые чипы Apple, разработанные специально для профессионалов. Они дают феноменальную производительность и обеспечивают удивительно долгое время работы без подзарядки. Прибавьте к этому потрясающий дисплей Liquid Retina XDR, превосходную камеру и звук, а также больше портов для профессиональной работы. С этим ноутбуком всё становится возможным.\r\n\r\n\r\n\r\nТеперь держитесь\r\nЧипы M1 Pro и M1 Max — это совершенно новый масштаб архитектуры М1. И впервые мы разработали систему на чипе специально для профессиональ­ных ноутбуков. У обоих чипов больше ядер в центральном и графическом процессорах и больше объединённой памяти, чем в чипе M1. А ещё мощная система Neural Engine для высокой скорости машинного обучения и обновлённые медиапроцессоры с поддержкой ProRes. M1 Pro и M1 Max позволяют профессио­налам создавать то, что раньше казалось невозможным.\r\n\r\n \r\n\r\nВыберите размер. Выберите чип. И полетели\r\nНовый MacBook Pro представлен двумя моделями: 14 дюймов и 16 дюймов. Для каждой из них можно выбрать чип M1 Pro или M1 Max, и любая конфигурация обеспечит беспреце­дентный уровень производительности. Вы сможете работать с миллионами полигонов в Cinema 4D, монтировать до семи потоков видео 8K в формате ProRes в Final Cut Pro, выполнять грейдинг в HDR, работая с видео 8K ProRes 4444, — и всё это на ноутбуке, а не в оборудо­ванной монтажной комнате.\r\n\r\n\r\n\r\nДень напролёт\r\nНеукротимая мощь и невероятное время работы от аккумулятора — вот она, настоящая магия чипов Apple. С ними вы можете скомпилировать до четырёх раз больше кода в Xcode и до двух раз дольше заниматься обработкой изображений в Lightroom Classic, прежде чем аккумулятор разрядится полностью. Причём MacBook Pro сохраняет высокий уровень производительности, даже если выключить его из розетки.\r\n\r\n\r\n\r\nОхлаждение, что надо\r\nПередовые компоненты систем охлаждения подают на 50 процентов больше воздуха даже при низкой скорости вращения вентиляторов. А при выполнении многих повседневных задач они вообще не включаются — настолько эффективно работают чипы Apple.\r\n\r\nОбъёмы на скорости\r\nВ новые MacBook Pro устанавливаются SSD‑накопители ёмкостью до 8 ТБ с невероятной скоростью чтения данных 7,4 ГБ/ с — более чем в 2 раза выше по сравнению с моделями предыдущего поколения. С таким диском вы сможете мгновенно открывать видео в формате 8K и хранить сотни тысяч фото в формате RAW.\r\n\r\nLiquid Retina XDR\r\nЭто первый дисплей для ноутбуков Mac с экстремальным динамическим диапазоном и контрастностью миллион к одному. На таком экране превосходно смотрятся фото, игры и видео в формате HDR. Отлично видны светлые участки, чётко передаются все детали в тёмных областях, цвета получаются яркими и естественными. Каждый дисплей проходит заводскую калибровку и поддерживает профессио­нальные режимы для грейдинга в HDR, работы с фотографиями, дизайна и предпечатной подготовки.\r\n\r\n\r\n\r\nProMotion\r\nЭто первые компьютеры Mac, для которых была реализована поддержка ProMotion. С ней всё работает быстро и гладко — от прокрутки веб-страниц до движений в компьютерных играх, — и при этом ноутбук потребляет меньше энергии. Максимальная частота обновления экрана составляет 120 Гц. Фактическое значение адаптивно меняется, подстраиваясь под скорость движения объектов на экране ноутбука. А для редакти­рования видео можно выбрать фиксированную частоту обновления, соответст­вующую параметрам записи.\r\n\r\nНа секундочку — камера HD 1080p\r\nБыть на связи сегодня как никогда важно. Поэтому мы удвоили разрешение камеры MacBook Pro — до 1080p — и увеличили диафрагму, чтобы она пропускала больше света. Обладая при этом увеличенной матрицей с большим количеством эффективных пикселей, камера даёт в два раза более качественное изображение при слабом освещении.\r\n\r\n\r\n\r\nТри микрофона студийного уровня\r\nУ микрофонов в этих моделях до 60 процентов ниже порог шума, поэтому MacBook Pro может воспринимать даже самые тихие звуки. А система из трёх направленных микрофонов помогает сделать так, чтобы ваш голос всегда звучал громко и отчётливо.\r\n\r\nСистема из шести динамиков\r\nЧетыре низкочастотных динамика с подавлением резонанса расширяют диапазон звучания — разница составляет до половины октавы — и воспроизводят до 80 процентов больше басов. Эффективные высокочас­тотные динамики более чётко и полно передают вокальные партии.\r\n\r\nПространственное аудио\r\nПри воспроизведении музыки и видео со звуком формате Dolby Atmos система из шести динамиков и передовые алгоритмы позволяют MacBook Pro формировать пространственное аудио, обеспечивая богатое объёмное звучание.\r\n\r\n\r\n\r\nВсё у вас подключится\r\nСлот для карт SDXC позволяет переносить фото и видео. Порт HDMI — подключать телевизоры и мониторы. Выход 3,5 мм автоматически распознаёт наушники с высоким импедансом и коррек­тирует параметры. Три порта Thunderbolt 4 служат для подклю­чения высокоскоростных периферийных устройств. А к разъёму питания MagSafe 3 легко примагнитить кабель для быстрой зарядки.\r\n\r\n\r\n\r\nЕщё больше пикселей\r\nК моделям с чипом M1 Max можно подключить до трёх мониторов Pro Display XDR и один телевизор с разрешением 4K. К моделям с чипом M1 Pro — до двух мониторов Pro Display XDR.\r\n\r\n\r\n\r\nМощь и клавиатура — парочка уровня Pro\r\nНа клавиатуре Magic Keyboard у MacBook Pro впервые появился ряд полноразмерных механических функциональных клавиш. Такие клавиши особенно ценят профессиональные пользователи из‑за тактильных ощущений. Вы сможете быстро активировать поиск Spotlight, Диктовку и функцию «Не беспокоить». Кроме того, на клавише Touch ID теперь есть специальное рельефное кольцо, которое помогает правильно приложить палец для разблокировки Mac.\r\n\r\n\r\n\r\nmacOS Monterey и чип Apple. Мощное сочетание\r\nВ macOS Monterey можно использовать одну клавиатуру, трекпад и мышь для одновремен­ной и непрерывной работы на Mac и iPad — с функцией «Универсальное управление».28 Автоматизировать сложные задачи с помощью Быстрых команд. Передавать изображение со своего экрана, вместе смотреть фильмы и работать над проектами через FaceTime. И просмат­ривать веб‑сайты в Safari — браузер стал ещё лучше. А режим фокусирования поможет сосредото­читься, временно отключив лишние уведомления.\r\n\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": true,
+      "sales": 2,
+      "banners": true,
+      "tags": [
+        1,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "price": "1212.76",
+      "count": 10,
+      "date": "2024-10-22T05:16:36.520Z",
+      "title": "NB ASUS 14.0\" Zenbook 14 OLED UX3405MA",
+      "description": "Утонченный Zenbook 14 OLED – это великолепный ультрапортативный ноутбук, доведенный до совершенства.",
+      "fullDescription": "Ноутбук эры искусственного интеллекта\r\nУтонченный Zenbook 14 OLED – это великолепный ультрапортативный ноутбук, доведенный до совершенства в каждом своем аспекте. Длительное время автономной работы, мощный процессор Intel Core Ultra с графическим ускорителем Intel Arc, полный комплект разъемов для подключения периферии, красочный дисплей ASUS Lumina OLED1 с сенсорным интерфейсом2, сверхлинейные динамики – и все это в виде экологичного устройства, произведенного с заботой об окружающей среде. Бескомпромиссная мобильность всегда и везде – с изящным ноутбуком Zenbook 14 OLED, выполненном в легком и прочном цельнометаллическом корпусе. Мастерски изготовленная бесшовная отделка по бокам делает его невероятно приятным на ощупь. Zenbook 14 OLED легко справляется с высокими нагрузками, в том числе в многозадачном режиме, благодаря передовому процессору Intel Core Ultra, у которого имеется специальный ИИ-ускоритель, предназначенный для быстрой обработки алгоритмов искусственного интеллекта. Также в наличии твердотельный накопитель емкостью до 1 терабайта, до 32 гигабайт оперативной памяти и беспроводной модуль стандарта 6E. Любой контент выглядит на этом ноутбуке невероятно красиво, ведь он оснащается дисплеем ASUS Lumina OLED с разрешением 2880х1800, комфортным для работы соотношением сторон 16:10, тонкой рамкой (относительная площадь экрана – 87%), технологией адаптивной синхронизации и яркостью до 600 кд/м². Беритесь за проекты любой сложности с уверенностью в своих силах – и с массивом RAID0 из твердотельных накопителей, работающих в режиме PCIe 4.0. Благодаря высокой пропускной способности интерфейса, достигающей 7000 МБ/с, огромные файлы будут открываться моментально, а игры – запускаться в мгновение ока.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": false,
+      "sales": null,
+      "banners": false,
+      "tags": []
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "price": "1184.00",
+      "count": 0,
+      "date": "2024-10-22T05:20:50.556Z",
+      "title": "Lenovo ThinkBook 16 G4+ IAP Arctic Grey - 16\" WQXGA IPS 350nits",
+      "description": "устройство, которое сочетает в себе элегантный дизайн, передовые технологии и производительность/",
+      "fullDescription": "Lenovo ThinkBook 16 G4+ IAP Arctic Grey\r\n\r\n\r\nLenovo ThinkBook 16 G4+ IAP Arctic Grey - устройство, которое сочетает в себе элегантный дизайн, передовые технологии и производительность для ваших рабочих и развлекательных потребностей.\r\n\r\nДиагональ экрана составляет 16 дюймов, обеспечивая просторное и яркое отображение с разрешением 2560 x 1600 пикселей. Частота обновления экрана 60 Гц гарантирует плавное и комфортное воспроизведение контента.\r\n\r\nЛинейка процессоров Intel® Core™ i7 и модель процессора Intel Core i7-1260P обеспечивают надежную и эффективную производительность. Это идеальное решение для многозадачности, работы и развлечений.\r\n\r\nТип памяти LPDDR5 и объем оперативной памяти 16GB позволяют вам работать с приложениями и файлами без задержек и снижения производительности.\r\n\r\nНакопитель M.2 NVMe с объемом 512GB предоставляет достаточно пространства для хранения ваших данных, документов и файлов.\r\n\r\nИнтегрированное графическое ядро Intel Iris Xe Graphics гарантирует высококачественное воспроизведение видео и графики, обеспечивая визуальное удовольствие во время работы и развлечений.\r\n\r\nПодсветка клавиатуры добавляет комфорт в использование ноутбука в условиях недостаточной освещенности, обеспечивая удобство при наборе текста.\r\n\r\n\r\n\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": true,
+      "rating": 0.0,
+      "limited": false,
+      "sales": null,
+      "banners": false,
+      "tags": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "price": "936.35",
+      "count": 33,
+      "date": "2024-10-22T05:25:10.232Z",
+      "title": "Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver",
+      "description": "MacBook Air — самый тонкий и лёгкий ноутбук Apple",
+      "fullDescription": "MacBook Air.\r\nС новой силой.\r\n\r\nMacBook Air — самый тонкий и лёгкий ноутбук Apple — теперь выходит на совершенно новый уровень благодаря мощному чипу Apple M1.\r\nОн быстро справляется с вашими задачами, задействуя потрясающую скорость 8‑ядерного процессора.\r\n\r\nОткрывает возможности нового уровня в приложениях и играх со сложной графикой, используя всю мощь 7‑ядерного графического процессора. И ускоряет операции машинного обучения, применяя 16‑ядерную систему Neural Engine. Всё происходит бесшумно, потому что это ноутбук без вентилятора. И он работает без подзарядки до 18 часов напролёт.\r\n\r\nЭто MacBook Air. Всё такой же компактный. Но теперь гораздо более мощный.\r\n\r\n \r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": false,
+      "sales": 3,
+      "banners": false,
+      "tags": [
+        1,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "price": "597.89",
+      "count": 10,
+      "date": "2024-10-22T05:29:30.301Z",
+      "title": "Huawei MateBook D15 Silver 15",
+      "description": "Испытайте новый визуальный опыт с Huawei MateBook D 15.",
+      "fullDescription": "На грани возможного\r\nИспытайте новый визуальный опыт с Huawei MateBook D 15. Безрамочный IPS-экран Huawei FullView 15,6 дюйма и соотношение сторон 16:9 расширяют ваши визуальные границы, а высокое разрешение Full HD 1920×1080 пикселей делает каждое изображение детальным и четким. Расширяйте границы возможного.\r\n\r\n\r\nЛегкий, но надежный\r\nHuawei Matebook D 15 создан для того, чтобы носить его с собой всегда и везде. Портативный ноутбук с гладким металлическим корпусом весит всего 1,53 кг и имеет толщину 16,9 мм.\r\n\r\n\r\nПочувствуйте мощь\r\nHuawei Matebook D 15 оснащен процессором Intel Core i5-1135G7 (2.4 - 4.2 ГГц), который ускоряет работу системы и повышает производительность ноутбука. SSD-накопитель и оперативная память DDR4 8 Гб обеспечивают невероятно высокую скорость чтения и записи файлов. А видеокарта Intel UHD Graphics 620 отвечает за качественную обработку изображения и делает работу и развлечения за ноутбуком максимально комфортными.\r\n\r\n\r\nHuawei Share (функция «мультискрин»)\r\nВсего одно нажатие, и ваш смартфон и ноутбук Huawei Matebook D 15 объединятся в одно многофункциональное устройство. Для этого вам даже не понадобится подключение к Интернету. Экран смартфона будет отображаться на ноутбуке, и вы сможете перетаскивать файлы между устройствами, а также использовать одну клавиатуру и мышь для редактирования файлов на ноутбуке и переписки с коллегами на смартфоне. Эти способы взаимодействия устройств значительно упростят вашу повседневную и офисную жизнь.\r\n\r\n\r\nСтабильная работа системы\r\nВстроенное SSD хранилище объемом 512 Гб даст вам достаточно места для музыкальной коллекции, пары сезонов любимого сериала, сотен фотографий, операционной системы и необходимого пакета приложений. Но его главное достоинство — это скорость работы.\r\n\r\n\r\nС заботой о вашем зрении\r\nHuawei Matebook D 15 поддерживает режим защиты зрения, сертифицированный TÜV Rheinland, который эффективно снижает УФ-излучение экрана ноутбука и обеспечивает защиту ваших глаз от усталости и напряжения.\r\n\r\n\r\nКонфиденциальность на первом месте\r\nВстречайте инновационный дизайн камеры ноутбука: теперь она скрыта прямо в клавиатуре. Нажмите на кнопку камеры, и она откроется именно тогда, когда вам нужно. Нажмите еще раз, чтобы скрыть камеру и уменьшить вероятность утечки данных и доступа злоумышленника к камере ноутбука.\r\n\r\n\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": false,
+      "sales": null,
+      "banners": false,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "price": "445.00",
+      "count": 15,
+      "date": "2024-10-22T05:40:20.896Z",
+      "title": "15.6\" HP 250 G9 Black, Intel i3-1215U",
+      "description": "Создан для гибридного стиля работы",
+      "fullDescription": "Создан для гибридного стиля работы\r\nЭтот изящный ноутбук оснащен всеми необходимыми средствами для эффективной совместной работы и при этом он настолько компактный, что вы можете брать его с собой повсюду.\r\n \r\nHP ProBook 450 15.6\" G9 Notebook PC NaturalSilver T HDcam WLAN nonODD FPR Win11 CoreSet FrontLeft\r\nНадежный инструмент для решения повседневных задач\r\nРаботайте эффективнее благодаря новейшему процессору Intel® 6, мощному графическому адаптеру 7, быстрым твердотельным накопителям и аккумулятору с длительным временем автономной работы.\r\n \r\nHP ProBook 450 15.6\" G9 Notebook PC NaturalSilver T HDcam WLAN nonODD FPR Win11 CoreSet FrontRight\r\nНадежная защита с помощью HP Wolf Security\r\nРешения HP Wolf Security для бизнеса обеспечивают постоянно действующую и надежную защиту на аппаратном уровне 8.\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": false,
+      "sales": null,
+      "banners": false,
+      "tags": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "price": "738.00",
+      "count": 23,
+      "date": "2024-10-22T05:45:54.075Z",
+      "title": "NB ASUS 15.6\" ExpertBook B2 Flip B2502FBA",
+      "description": "Настроенный на то, чтобы превратить ваш бизнес в\r\nASUS ExpertBook B2 Flip",
+      "fullDescription": "Настроенный на то, чтобы превратить ваш бизнес в\r\nASUS ExpertBook B2 Flip - это ваш надежный партнер для повседневных офисных задач и использования в бизнесе на ходу, а его конструкция с возможностью поворота на 360 ° обеспечивает максимальную универсальность. Он оснащен новейшим процессором Intel® i7 12-го поколения, сверхбыстрой связью 5G и полным набором портов ввода-вывода. Он также невероятно настраиваемый, с клавиатурой с подсветкой, встроенным управлением SensePoint, двойной памятью SO-DIMM для быстрой загрузки данных. ExpertBook B2 Flip даже оснащен устройством чтения смарт-карт для двухфакторной аутентификации, что обеспечивает безопасность корпоративного уровня, подходящую даже для самых чувствительных настроек.\r\n \r\nПроцессор Intel Core 12-го поколения\r\nБлагодаря передовому процессору Intel® i7 12-го поколения ExpertBook B2 Flip создан для бизнеса и обеспечивает быструю и отзывчивую производительность, необходимую для выполнения работы.\r\n \r\n \r\nСверхбыстрое подключение 5G1\r\nExpertBook B2 Flip оснащен встроенной технологией сотовой связи 5G для сверхбыстрой загрузки больших файлов и безопасного подключения, где бы вы ни работали. Ноутбук также оснащен новейшей технологией WiFi 6 / WiFi 6E1, дополненной ASUS WiFi Master, для обеспечения самых быстрых и надежных подключений Wi-Fi.\r\n \r\nВсестороннее подключение\r\nExpertBook B2 Flip оснащен портами ввода-вывода. К ним относятся ультрасовременный Thunderbolt™ 4, новое поколение универсального решения для подключения кабелей, которое обеспечивает поддержку интерфейса USB4 следующего уровня, скорость передачи данных 40 Гбит / с, вывод на дисплей 4K и быструю зарядку.\r\n \r\nНа значке отображается клавиатура с подсветкой ASUS sensepoint\r\nПодсветка с помощью SensePoint\r\nExpertBook B2 Flip поставляется с дополнительной клавиатурой с подсветкой, которая позволяет легко печатать в темных помещениях, от кабин самолетов до слабо освещенных офисов. Этот выбор включает в себя ASUS SensePoint, маленькую указательную головку, которая обеспечивает полный контроль.\r\nПроизводительность со всех сторон\r\nExpertBook B2 Flip предназначен для ускорения выполнения любых бизнес—задач в офисе или в дороге - и оснащен дисплеем, который поворачивается на 360 ° для повышения производительности под любым углом. Процессор Intel® Core™ i7 последнего поколения и подключение к сети 5G обеспечивают необходимую быструю и отзывчивую производительность, в то время как конструкция с двумя SO-DIMM с возможностью обновления обеспечивает идеальную производительность и быстрый доступ к данным. А гибкие конфигурации с дополнительным устройством считывания смарт-карт готовы обеспечить безопасность бизнес-уровня.\r\n\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": true,
+      "rating": 0.0,
+      "limited": true,
+      "sales": 4,
+      "banners": false,
+      "tags": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "price": "699.00",
+      "count": 35,
+      "date": "2024-10-22T05:51:23.663Z",
+      "title": "HP Pavilion 15 Natural Silver (15-eh3027ci),",
+      "description": "Производительность, позволяющая быть на шаг впереди.",
+      "fullDescription": "Более продуктивная работа\r\nПроизводительность, позволяющая быть на шаг впереди. Ноутбук, который поможет справиться с любыми задачами благодаря процессору AMD премиального класса.\r\n\r\n\r\n\r\nБольше удовольствия в компактном корпусе\r\nКомпактный ноутбук, который обеспечивает комфортную мобильную работу благодаря тачпаду Precision Touchpad, а его аккумулятор с длительным временем работы и функцией быстрой зарядки HP Fast Charge обеспечивает свободу передвижения\r\n\r\n\r\n\r\nВеликолепный экран\r\nАудиосистема B&O, увеличенный относительный размер экрана, а также узкие рамки, которые максимально увеличивают область просмотра, позволяют насладиться развлечениями на компактном компьютере.\r\n\r\n\r\n\r\nУверенность в работе. Удовольствие от игр.\r\nМобильные процессоры AMD Ryzen™ серии 5000 U\r\nЕсли вам часто приходится сочетать участие в видеоконференциях, просмотр веб-страниц, построение электронных таблиц и создание презентаций, то устройства на базе мобильных процессоров AMD Ryzen™ серии 5000 — это идеальный выбор.\r\n\r\nЭкран Full HD IPS\r\nОцените потрясающую четкость изображения с любого угла. Благодаря широкому углу обзора 178° и высокому разрешению 1920 x 1080 изображение на экране будет отлично выглядеть с любой стороны.\r\n\r\nДолгое время автономной работы\r\nИспользуйте устройство в течение всего дня, не беспокоясь о подзарядке. Аккумулятор позволяет работать автономно до 8 часов и 45 минут, чтобы вы ни в чем не были ограничены.\r\n\r\nТехнология быстрой зарядки HP Fast Charge\r\nВам больше не придется ждать зарядки ноутбука несколько часов. Аккумулятор выключенного устройства можно зарядить с 0 до 50 % всего за 45 минут.\r\n\r\n20C2 - HP Pavilion 15 Laptop PC (15, CeramicWhite, NT, HDcam, nonODD, nonFPR) photocomp, FrontFacing\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": false,
+      "sales": null,
+      "banners": false,
+      "tags": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.product",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "price": "2363.00",
+      "count": 23,
+      "date": "2024-10-22T05:54:52.558Z",
+      "title": "NB ASUS 16.0\" Zenbook S 16 OLED UM5606WA Gray",
+      "description": "Этот новый ASUS Zenbook S 16 OLED",
+      "fullDescription": "Ноутбук ASUS Zenbook S 16 OLED UM5606WA Ryzen AI 9 HX 370 \r\n220749 ASUS 16.0\r\n\r\nЭтот новый ASUS Zenbook S 16 OLED оснащен новейшим процессором AMD Ryzen AI, усовершенствованным тихим охлаждением. Он разработан, чтобы обогатить ваш образ жизни в движении, с удивительно тонким корпусом. Корпус с усовершенствованным 16-дюймовым 3K ASUS Lumina OLED-дисплеем, и захватывающий звук из шести динамиков.\r\n\r\n \r\n\r\nASUS Zenbook S 16 OLED UM5606WA Ryzen AI 9 HX 370 32GB 2.0TB AMD Radeon 890M W11H Zumaia Gray\r\n\r\nАбсолютно новый дизайн черпает вдохновение из природы, используя тактильный и прочный материал. Используя обработку на станке с ЧПУ на его C-части, интегрированный процесс формования и тщательное изготовление с повышенной прочностью. Вы можете наслаждаться бескомпромиссной мобильностью с гладкой, легкой и прочной полностью металлической конструкцией.\r\n\r\nASUS Zenbook S 16 OLED UM5606WA Ryzen AI 9 HX 370 32GB 2.0TB AMD Radeon 890M W11H Zumaia Gray\r\n\r\n \r\n\r\n*Сопровождающие товар фотографии и описание может отличаться от оригинала. Производитель может изменять дизайн, технические характеристики и комплектацию изделия без уведомления об этом продавца. Уточняйте важные для Вас параметры при заказе.",
+      "freeDelivery": false,
+      "rating": 0.0,
+      "limited": false,
+      "sales": null,
+      "banners": false,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "src": "goods/product_1/images/acer-nitro.png",
+      "alt": "acer-nitro"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 2,
+    "fields": {
+      "product": 2,
+      "src": "goods/product_2/images/thumb_500x500_nb-.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 3,
+    "fields": {
+      "product": 2,
+      "src": "goods/product_2/images/thumb_500x500_nb-lenovo-156-.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 4,
+    "fields": {
+      "product": 2,
+      "src": "goods/product_2/images/thumb_500x500-98579014801244.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 5,
+    "fields": {
+      "product": 3,
+      "src": "goods/product_3/images/thumb_500x500_hp-laptop-.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 6,
+    "fields": {
+      "product": 3,
+      "src": "goods/product_3/images/thumb_500x500_hp-lapt016829001.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 7,
+    "fields": {
+      "product": 3,
+      "src": "goods/product_3/images/thumb_500x500_579016829002.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 8,
+    "fields": {
+      "product": 4,
+      "src": "goods/product_4/images/nb-apple-macbook-pro.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 9,
+    "fields": {
+      "product": 4,
+      "src": "goods/product_4/images/nb-apple-macbook-pro1.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 10,
+    "fields": {
+      "product": 4,
+      "src": "goods/product_4/images/nb-apple-macbook-pro2.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 11,
+    "fields": {
+      "product": 4,
+      "src": "goods/product_4/images/nb-apple-macbook-pro3.jpg",
+      "alt": "4"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 12,
+    "fields": {
+      "product": 5,
+      "src": "goods/product_5/images/thumb_500x500_nb-asus-140.png",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 13,
+    "fields": {
+      "product": 5,
+      "src": "goods/product_5/images/thumb_500x500_nb-asus-1402.png",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 14,
+    "fields": {
+      "product": 5,
+      "src": "goods/product_5/images/thumb_500x500_nb-asus-1403.png",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 15,
+    "fields": {
+      "product": 6,
+      "src": "goods/product_6/images/thumb_500x500_lenovo-thinkbook.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 16,
+    "fields": {
+      "product": 6,
+      "src": "goods/product_6/images/thumb_500x500_lenovo-thinkbook1.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 17,
+    "fields": {
+      "product": 6,
+      "src": "goods/product_6/images/thumb_500x500_lenovo-thinkbook3.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 18,
+    "fields": {
+      "product": 7,
+      "src": "goods/product_7/images/thumb_500x500_apple-macbook.png",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 19,
+    "fields": {
+      "product": 7,
+      "src": "goods/product_7/images/thumb_500x500_apple-macbook1.png",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 20,
+    "fields": {
+      "product": 8,
+      "src": "goods/product_8/images/thumb_500x500_huawei-matebook-d15.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 21,
+    "fields": {
+      "product": 8,
+      "src": "goods/product_8/images/thumb_500x500_huawei-matebook-d151.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 22,
+    "fields": {
+      "product": 8,
+      "src": "goods/product_8/images/thumb_500x500_huawei-matebook-d152.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 23,
+    "fields": {
+      "product": 8,
+      "src": "goods/product_8/images/thumb_500x500_huawei-matebook-d1523.jpg",
+      "alt": "4"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 24,
+    "fields": {
+      "product": 9,
+      "src": "goods/product_9/images/thumb_500x500_156.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 25,
+    "fields": {
+      "product": 9,
+      "src": "goods/product_9/images/thumb_500x500_1561.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 26,
+    "fields": {
+      "product": 9,
+      "src": "goods/product_9/images/thumb_500x500_1563.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 27,
+    "fields": {
+      "product": 9,
+      "src": "goods/product_9/images/thumb_500x500_1564.jpg",
+      "alt": "4"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 28,
+    "fields": {
+      "product": 10,
+      "src": "goods/product_10/images/thumb_500x500_nb-asus-156.png",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 29,
+    "fields": {
+      "product": 10,
+      "src": "goods/product_10/images/thumb_500x500_nb-asus-1561.png",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 30,
+    "fields": {
+      "product": 10,
+      "src": "goods/product_10/images/thumb_500x500_nb-asus-1562.png",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 31,
+    "fields": {
+      "product": 11,
+      "src": "goods/product_11/images/thumb_500x500_hp-pavilion.png",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 32,
+    "fields": {
+      "product": 11,
+      "src": "goods/product_11/images/thumb_500x500_hp-pavilion1.png",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 33,
+    "fields": {
+      "product": 11,
+      "src": "goods/product_11/images/thumb_500x500_hp-pavilion3.png",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 34,
+    "fields": {
+      "product": 12,
+      "src": "goods/product_12/images/thumb_500x500_nb1.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 35,
+    "fields": {
+      "product": 12,
+      "src": "goods/product_12/images/thumb_500x500_nb12.jpg",
+      "alt": "2"
+    }
+  },
+  {
+    "model": "goods.image",
+    "pk": 36,
+    "fields": {
+      "product": 12,
+      "src": "goods/product_12/images/thumb_500x500_nb13.jpg",
+      "alt": "3"
+    }
+  },
+  {
+    "model": "goods.review",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "author": "euroGamer",
+      "email": "euroGamer@gmail.com",
+      "text": "Мне понравился, стоит всех своих денег",
+      "rate": 5,
+      "date": "2024-10-20T17:33:09.655Z"
+    }
+  },
+  {
+    "model": "goods.review",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "author": "Andrey",
+      "email": "Andrey1998@gmail.com",
+      "text": "Игры летают, ставлю 5 звёзд!",
+      "rate": 5,
+      "date": "2024-10-20T17:33:48.917Z"
+    }
+  },
+  {
+    "model": "goods.review",
+    "pk": 3,
+    "fields": {
+      "product": 1,
+      "author": "Eugene",
+      "email": "Eugene@gmail.com",
+      "text": "Слишком дорого, перегревается(",
+      "rate": 3,
+      "date": "2024-10-20T17:34:30.237Z"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 3,
+    "fields": {
+      "product": 1,
+      "name": "Линейка (CPU)",
+      "value": "AMD Ryzen 5"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 4,
+    "fields": {
+      "product": 1,
+      "name": "Модель процессора",
+      "value": "AMD Ryzen™ 5 3550H"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 5,
+    "fields": {
+      "product": 1,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 6,
+    "fields": {
+      "product": 1,
+      "name": "Объем оперативной памяти",
+      "value": "8 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 7,
+    "fields": {
+      "product": 1,
+      "name": "Тип накопителя",
+      "value": "M.2 NVMe"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 8,
+    "fields": {
+      "product": 1,
+      "name": "Объем накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 9,
+    "fields": {
+      "product": 1,
+      "name": "Модель Видеокарты",
+      "value": "AMD Radeon™ RX 560X"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 10,
+    "fields": {
+      "product": 1,
+      "name": "OS",
+      "value": "Linux"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 11,
+    "fields": {
+      "product": 2,
+      "name": "Lenovo Серия",
+      "value": "IdeaPad 3"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 12,
+    "fields": {
+      "product": 2,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 13,
+    "fields": {
+      "product": 2,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 14,
+    "fields": {
+      "product": 2,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 15,
+    "fields": {
+      "product": 2,
+      "name": "Линейка (CPU)",
+      "value": "AMD Ryzen 3"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 16,
+    "fields": {
+      "product": 2,
+      "name": "Модель процессора",
+      "value": "AMD Ryzen 3 7320U (4x Core, 2.4GHz - 4.1GHz, 4Mb)"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 17,
+    "fields": {
+      "product": 2,
+      "name": "Тип памяти",
+      "value": "DDR5"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 18,
+    "fields": {
+      "product": 2,
+      "name": "Объем оперативной памяти",
+      "value": "8 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 19,
+    "fields": {
+      "product": 2,
+      "name": "Тип накопителя",
+      "value": "PCIe NVMe SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 20,
+    "fields": {
+      "product": 2,
+      "name": "Объем накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 21,
+    "fields": {
+      "product": 2,
+      "name": "Модель Видеокарты",
+      "value": "AMD Radeon™ Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 22,
+    "fields": {
+      "product": 2,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 23,
+    "fields": {
+      "product": 2,
+      "name": "Клавиатура",
+      "value": "Без подсветки"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 24,
+    "fields": {
+      "product": 2,
+      "name": "OS",
+      "value": "No OS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 25,
+    "fields": {
+      "product": 3,
+      "name": "HP Серия",
+      "value": "Laptop"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 26,
+    "fields": {
+      "product": 3,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 27,
+    "fields": {
+      "product": 3,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 28,
+    "fields": {
+      "product": 3,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 29,
+    "fields": {
+      "product": 3,
+      "name": "Линейка (CPU)",
+      "value": "Intel® Core™ i3"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 30,
+    "fields": {
+      "product": 3,
+      "name": "Модель процессора",
+      "value": "Intel Core i3-1315U"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 31,
+    "fields": {
+      "product": 3,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 32,
+    "fields": {
+      "product": 3,
+      "name": "Объем оперативной памяти",
+      "value": "8 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 33,
+    "fields": {
+      "product": 3,
+      "name": "Тип накопителя",
+      "value": "PCIe NVMe SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 34,
+    "fields": {
+      "product": 3,
+      "name": "Объем накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 35,
+    "fields": {
+      "product": 3,
+      "name": "Модель Видеокарты",
+      "value": "Intel UHD Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 36,
+    "fields": {
+      "product": 3,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 37,
+    "fields": {
+      "product": 3,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 38,
+    "fields": {
+      "product": 3,
+      "name": "OS",
+      "value": "Free DO"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 39,
+    "fields": {
+      "product": 4,
+      "name": "Apple Серия",
+      "value": "MacBook Pro 16"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 40,
+    "fields": {
+      "product": 4,
+      "name": "Диагональ экрана",
+      "value": "16.2"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 41,
+    "fields": {
+      "product": 4,
+      "name": "Разрешение экрана",
+      "value": "3456 x 2234"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 42,
+    "fields": {
+      "product": 4,
+      "name": "Частота обновления экрана",
+      "value": "120 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 43,
+    "fields": {
+      "product": 4,
+      "name": "Линейка (CPU)",
+      "value": "Apple M1 Max"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 44,
+    "fields": {
+      "product": 4,
+      "name": "Модель процессора",
+      "value": "Apple M1 Max (10-core)"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 45,
+    "fields": {
+      "product": 4,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 46,
+    "fields": {
+      "product": 4,
+      "name": "Объем оперативной памяти",
+      "value": "64GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 47,
+    "fields": {
+      "product": 4,
+      "name": "Тип накопителя",
+      "value": "SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 48,
+    "fields": {
+      "product": 4,
+      "name": "Объем накопителя",
+      "value": "2 TB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 49,
+    "fields": {
+      "product": 4,
+      "name": "Модель Видеокарты",
+      "value": "Apple M1 Max (32-core GPU)"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 50,
+    "fields": {
+      "product": 4,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 51,
+    "fields": {
+      "product": 4,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 52,
+    "fields": {
+      "product": 4,
+      "name": "Тип графического ядра",
+      "value": "Интегрированное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 53,
+    "fields": {
+      "product": 4,
+      "name": "Особенности",
+      "value": "Нет"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 54,
+    "fields": {
+      "product": 4,
+      "name": "OS",
+      "value": "Mac OS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 55,
+    "fields": {
+      "product": 5,
+      "name": "Asus Серия",
+      "value": "ZenBook"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 56,
+    "fields": {
+      "product": 5,
+      "name": "Диагональ экрана",
+      "value": "14"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 57,
+    "fields": {
+      "product": 5,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1200"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 58,
+    "fields": {
+      "product": 5,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 59,
+    "fields": {
+      "product": 5,
+      "name": "Линейка (CPU)",
+      "value": "Intel® Core™ Ultra 7"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 60,
+    "fields": {
+      "product": 5,
+      "name": "Модель процессора",
+      "value": "Intel Core Ultra 7 155H"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 61,
+    "fields": {
+      "product": 5,
+      "name": "Тип памяти",
+      "value": "LPDDR5X"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 62,
+    "fields": {
+      "product": 5,
+      "name": "Объем оперативной памяти",
+      "value": "16 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 63,
+    "fields": {
+      "product": 5,
+      "name": "Тип накопителя",
+      "value": "PCIe"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 64,
+    "fields": {
+      "product": 5,
+      "name": "Объем накопителя",
+      "value": "1 TB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 65,
+    "fields": {
+      "product": 5,
+      "name": "Модель Видеокарты",
+      "value": "Intel Arc Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 66,
+    "fields": {
+      "product": 5,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 67,
+    "fields": {
+      "product": 5,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 68,
+    "fields": {
+      "product": 5,
+      "name": "Тип графического ядра",
+      "value": "Intel Arc"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 69,
+    "fields": {
+      "product": 5,
+      "name": "OS",
+      "value": "Free DOS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 70,
+    "fields": {
+      "product": 6,
+      "name": "Lenovo Серия",
+      "value": "ThinkPad 16"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 71,
+    "fields": {
+      "product": 6,
+      "name": "Диагональ экрана",
+      "value": "16"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 72,
+    "fields": {
+      "product": 6,
+      "name": "Разрешение экрана",
+      "value": "2560 x 1600"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 73,
+    "fields": {
+      "product": 6,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 74,
+    "fields": {
+      "product": 6,
+      "name": "Линейка (CPU)",
+      "value": "Intel® Core™ i7"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 75,
+    "fields": {
+      "product": 6,
+      "name": "Модель процессора",
+      "value": "Intel Core i7-1260P"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 76,
+    "fields": {
+      "product": 6,
+      "name": "Тип памяти",
+      "value": "DDR5"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 77,
+    "fields": {
+      "product": 6,
+      "name": "Объем оперативной памяти",
+      "value": "16 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 78,
+    "fields": {
+      "product": 6,
+      "name": "Тип накопителя",
+      "value": "M.2 NVMe"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 79,
+    "fields": {
+      "product": 6,
+      "name": "Объем накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 80,
+    "fields": {
+      "product": 6,
+      "name": "Модель Видеокарты",
+      "value": "Intel Iris Xe Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 81,
+    "fields": {
+      "product": 6,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 82,
+    "fields": {
+      "product": 6,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 83,
+    "fields": {
+      "product": 6,
+      "name": "OS",
+      "value": "No OS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 84,
+    "fields": {
+      "product": 7,
+      "name": "Apple Серия",
+      "value": "MacBook Air 13"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 85,
+    "fields": {
+      "product": 7,
+      "name": "Диагональ экрана",
+      "value": "13.3"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 86,
+    "fields": {
+      "product": 7,
+      "name": "Разрешение экрана",
+      "value": "2560 x 1664"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 87,
+    "fields": {
+      "product": 7,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 88,
+    "fields": {
+      "product": 7,
+      "name": "Линейка (CPU)",
+      "value": "Apple M1"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 89,
+    "fields": {
+      "product": 7,
+      "name": "Модель процессора",
+      "value": "Apple M1 8-core"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 90,
+    "fields": {
+      "product": 7,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 91,
+    "fields": {
+      "product": 7,
+      "name": "Объем оперативной памяти",
+      "value": "8 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 92,
+    "fields": {
+      "product": 7,
+      "name": "Тип накопителя",
+      "value": "SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 93,
+    "fields": {
+      "product": 7,
+      "name": "Объем накопителя",
+      "value": "256GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 94,
+    "fields": {
+      "product": 7,
+      "name": "Модель Видеокарты",
+      "value": "Apple M1"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 95,
+    "fields": {
+      "product": 7,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 96,
+    "fields": {
+      "product": 7,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 97,
+    "fields": {
+      "product": 7,
+      "name": "Тип графического ядра",
+      "value": "Интегрированное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 98,
+    "fields": {
+      "product": 7,
+      "name": "Особенности",
+      "value": "Считыватель отпечатков пальцев"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 99,
+    "fields": {
+      "product": 7,
+      "name": "OS",
+      "value": "Mac OS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 100,
+    "fields": {
+      "product": 8,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 101,
+    "fields": {
+      "product": 8,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 102,
+    "fields": {
+      "product": 8,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 103,
+    "fields": {
+      "product": 8,
+      "name": "Линейка (CPU)",
+      "value": "Intel® Core™ i3"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 104,
+    "fields": {
+      "product": 8,
+      "name": "Модель процессора",
+      "value": "Intel Core i3-1115G4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 105,
+    "fields": {
+      "product": 8,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 106,
+    "fields": {
+      "product": 8,
+      "name": "Объем оперативной памяти",
+      "value": "8 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 107,
+    "fields": {
+      "product": 8,
+      "name": "Тип накопителя",
+      "value": "SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 108,
+    "fields": {
+      "product": 8,
+      "name": "Объем накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 109,
+    "fields": {
+      "product": 8,
+      "name": "Модель Видеокарты",
+      "value": "Intel UHD Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 110,
+    "fields": {
+      "product": 8,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 111,
+    "fields": {
+      "product": 8,
+      "name": "Клавиатура",
+      "value": "Без подсветки"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 112,
+    "fields": {
+      "product": 8,
+      "name": "OS",
+      "value": "Windows 11 Home"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 113,
+    "fields": {
+      "product": 9,
+      "name": "HP Серия",
+      "value": "ProBook"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 114,
+    "fields": {
+      "product": 9,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 115,
+    "fields": {
+      "product": 9,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 116,
+    "fields": {
+      "product": 9,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 117,
+    "fields": {
+      "product": 9,
+      "name": "Линейка (CPU)",
+      "value": "Intel® Core™ i3"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 118,
+    "fields": {
+      "product": 9,
+      "name": "Модель процессора",
+      "value": "Intel Core Intel i3-1215U"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 119,
+    "fields": {
+      "product": 9,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 120,
+    "fields": {
+      "product": 9,
+      "name": "Объем оперативной памяти",
+      "value": "8 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 121,
+    "fields": {
+      "product": 9,
+      "name": "Тип накопителя",
+      "value": "M.2 NVMe"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 122,
+    "fields": {
+      "product": 9,
+      "name": "Объем накопителя",
+      "value": "256GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 123,
+    "fields": {
+      "product": 9,
+      "name": "Модель Видеокарты",
+      "value": "Intel UHD Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 124,
+    "fields": {
+      "product": 9,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 125,
+    "fields": {
+      "product": 9,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 126,
+    "fields": {
+      "product": 9,
+      "name": "OS",
+      "value": "No OS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 127,
+    "fields": {
+      "product": 10,
+      "name": "Asus Серия",
+      "value": "ExpertBook"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 128,
+    "fields": {
+      "product": 10,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 129,
+    "fields": {
+      "product": 10,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 130,
+    "fields": {
+      "product": 10,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 131,
+    "fields": {
+      "product": 10,
+      "name": "Линейка (CPU)",
+      "value": "Intel® Core™ i7"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 132,
+    "fields": {
+      "product": 10,
+      "name": "Модель процессора",
+      "value": "1260P"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 133,
+    "fields": {
+      "product": 10,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 134,
+    "fields": {
+      "product": 10,
+      "name": "Объем оперативной памяти",
+      "value": "M.2 NVMe"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 135,
+    "fields": {
+      "product": 10,
+      "name": "Тип накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 136,
+    "fields": {
+      "product": 10,
+      "name": "Объем накопителя",
+      "value": "16 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 137,
+    "fields": {
+      "product": 10,
+      "name": "Модель Видеокарты",
+      "value": "Intel® Iris® Xe Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 138,
+    "fields": {
+      "product": 10,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 139,
+    "fields": {
+      "product": 10,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 140,
+    "fields": {
+      "product": 10,
+      "name": "Тип графического ядра",
+      "value": "Интегрированное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 141,
+    "fields": {
+      "product": 10,
+      "name": "Особенности",
+      "value": "Touchscreen"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 142,
+    "fields": {
+      "product": 10,
+      "name": "OS",
+      "value": "No OS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 143,
+    "fields": {
+      "product": 11,
+      "name": "HP Серия",
+      "value": "Pavilion"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 144,
+    "fields": {
+      "product": 11,
+      "name": "Диагональ экрана",
+      "value": "15.6"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 145,
+    "fields": {
+      "product": 11,
+      "name": "Разрешение экрана",
+      "value": "1920 x 1080"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 146,
+    "fields": {
+      "product": 11,
+      "name": "Частота обновления экрана",
+      "value": "60 Гц"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 147,
+    "fields": {
+      "product": 11,
+      "name": "Линейка (CPU)",
+      "value": "AMD Ryzen 5"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 148,
+    "fields": {
+      "product": 11,
+      "name": "Модель процессора",
+      "value": "AMD Ryzen 5 7530U 6xCore 2.0-4.5 GHz"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 149,
+    "fields": {
+      "product": 11,
+      "name": "Тип памяти",
+      "value": "DDR4"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 150,
+    "fields": {
+      "product": 11,
+      "name": "Объем оперативной памяти",
+      "value": "16 GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 151,
+    "fields": {
+      "product": 11,
+      "name": "Тип накопителя",
+      "value": "PCIe NVMe SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 152,
+    "fields": {
+      "product": 11,
+      "name": "Объем накопителя",
+      "value": "512GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 153,
+    "fields": {
+      "product": 11,
+      "name": "Модель Видеокарты",
+      "value": "AMD Radeon Graphics"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 154,
+    "fields": {
+      "product": 11,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 155,
+    "fields": {
+      "product": 11,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 156,
+    "fields": {
+      "product": 11,
+      "name": "Особенности",
+      "value": "Считыватель отпечатков пальцев"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 157,
+    "fields": {
+      "product": 11,
+      "name": "OS",
+      "value": "Free DOS"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 158,
+    "fields": {
+      "product": 12,
+      "name": "Asus Серия",
+      "value": "ZenBook S"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 159,
+    "fields": {
+      "product": 12,
+      "name": "Диагональ экрана",
+      "value": "16"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 160,
+    "fields": {
+      "product": 12,
+      "name": "Разрешение экрана",
+      "value": "2880 x 1800"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 161,
+    "fields": {
+      "product": 12,
+      "name": "Частота обновления экрана",
+      "value": "-"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 162,
+    "fields": {
+      "product": 12,
+      "name": "Линейка (CPU)",
+      "value": "AMD Ryzen AI 9"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 163,
+    "fields": {
+      "product": 12,
+      "name": "Модель процессора",
+      "value": "AMD Ryzen AI 9 HX 370 (2.0 - 5.1 Ггц), 12-cores"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 164,
+    "fields": {
+      "product": 12,
+      "name": "Тип памяти",
+      "value": "DDR5"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 165,
+    "fields": {
+      "product": 12,
+      "name": "Объем оперативной памяти",
+      "value": "32GB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 166,
+    "fields": {
+      "product": 12,
+      "name": "Тип накопителя",
+      "value": "SSD"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 167,
+    "fields": {
+      "product": 12,
+      "name": "Объем накопителя",
+      "value": "2 TB"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 168,
+    "fields": {
+      "product": 12,
+      "name": "Модель Видеокарты",
+      "value": "AMD Radeon 890M"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 169,
+    "fields": {
+      "product": 12,
+      "name": "Серия дискретной видеокарты",
+      "value": "Встроенное графическое ядро"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 170,
+    "fields": {
+      "product": 12,
+      "name": "Клавиатура",
+      "value": "С подсветкой"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 171,
+    "fields": {
+      "product": 12,
+      "name": "Тип графического ядра",
+      "value": "AMD Radeon"
+    }
+  },
+  {
+    "model": "goods.specification",
+    "pk": 172,
+    "fields": {
+      "product": 12,
+      "name": "OS",
+      "value": "Windows 11 Home"
+    }
+  },
+  {
+    "model": "catalog.sale",
+    "pk": 1,
+    "fields": {
+      "price": "599.00",
+      "salePrice": "470.02",
+      "dateFrom": "2024-10-20",
+      "dateTo": "2024-10-31",
+      "title": "HP Laptop 15 Jet Black (15-fd0068ci)"
+    }
+  },
+  {
+    "model": "catalog.sale",
+    "pk": 2,
+    "fields": {
+      "price": "9999.00",
+      "salePrice": "4851.00",
+      "dateFrom": "2024-10-22",
+      "dateTo": "2024-10-31",
+      "title": "Apple MacBook Pro 16.2\" M1 Max/10CPU/32GPU 64/2TB Space Gray RU"
+    }
+  },
+  {
+    "model": "catalog.sale",
+    "pk": 3,
+    "fields": {
+      "price": "1199.00",
+      "salePrice": "936.35",
+      "dateFrom": "2024-10-22",
+      "dateTo": "2024-10-31",
+      "title": "Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver"
+    }
+  },
+  {
+    "model": "catalog.sale",
+    "pk": 4,
+    "fields": {
+      "price": "1099.00",
+      "salePrice": "738.00",
+      "dateFrom": "2024-10-22",
+      "dateTo": "2024-10-31",
+      "title": "NB ASUS 15.6\" ExpertBook B2 Flip B2502FBA"
+    }
+  },
+  {
+    "model": "catalog.saleimage",
+    "pk": 1,
+    "fields": {
+      "sale": 1,
+      "src": "sales/images/thumb_500x500_hp-laptop-.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "catalog.saleimage",
+    "pk": 2,
+    "fields": {
+      "sale": 2,
+      "src": "sales/images/nb-apple-macbook-pro.jpg",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "catalog.saleimage",
+    "pk": 3,
+    "fields": {
+      "sale": 3,
+      "src": "sales/images/thumb_500x500_apple-macbook.png",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "catalog.saleimage",
+    "pk": 4,
+    "fields": {
+      "sale": 4,
+      "src": "sales/images/thumb_500x500_nb-asus-156.png",
+      "alt": "1"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "title": "Notebook"
+    }
+  },
+  {
+    "model": "catalog.subcategory",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "title": "Game Notebook"
+    }
+  },
+  {
+    "model": "catalog.categoryimage",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "src": "category/images/notebook.webp",
+      "alt": "Notebook"
+    }
+  },
+  {
+    "model": "catalog.subcategoryimage",
+    "pk": 1,
+    "fields": {
+      "subcategories": 1,
+      "src": "subcategories/images/game_notebook.webp",
+      "alt": "Game Notebook"
+    }
+  },
+  {
+    "model": "orders.ordersdata",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "createdAt": "2024-10-22T05:58:49.918Z",
+      "fullName": "Admin",
+      "email": "Admin@gmail.com",
+      "phone": "99999999999",
+      "deliveryType": "ordinary",
+      "paymentType": "online",
+      "totalCost": "936.35",
+      "status": "payment",
+      "city": "Admin city",
+      "address": "Admin city",
+      "products": [
+        {
+          "id": 7,
+          "category": 1,
+          "price": "936.35",
+          "count": 1,
+          "date": "2024-10-22 05:56:32",
+          "title": "Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver",
+          "description": "MacBook Air — самый тонкий и лёгкий ноутбук Apple",
+          "freeDelivery": false,
+          "images": [
+            {
+              "src": "/media/goods/product_7/images/thumb_500x500_apple-macbook.png",
+              "alt": "1"
+            },
+            {
+              "src": "/media/goods/product_7/images/thumb_500x500_apple-macbook1.png",
+              "alt": "2"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1,
+              "name": "Notebook"
+            },
+            {
+              "id": 3,
+              "name": "Office"
+            },
+            {
+              "id": 4,
+              "name": "Apple"
+            }
+          ],
+          "reviews": 0,
+          "rating": 0
+        }
+      ]
+    }
+  },
+  {
+    "model": "orders.ordersdata",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "createdAt": "2024-10-22T06:48:27.001Z",
+      "fullName": "John",
+      "email": "John@gmail.com",
+      "phone": "9999999999",
+      "deliveryType": "ordinary",
+      "paymentType": "online",
+      "totalCost": "8160.00",
+      "status": "accepted",
+      "city": "John Land",
+      "address": "John Land",
+      "products": [
+        {
+          "id": 1,
+          "category": 1,
+          "price": "816.00",
+          "count": 10,
+          "date": "2024-10-22 06:48:23",
+          "title": "ACER Nitro AN515-43 Obsidian Black",
+          "description": "Игровой ноутбук подходящий именно Вам.",
+          "freeDelivery": false,
+          "images": [
+            {
+              "src": "/media/goods/product_1/images/acer-nitro.png",
+              "alt": "acer-nitro"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1,
+              "name": "Notebook"
+            },
+            {
+              "id": 2,
+              "name": "Game Notebook"
+            }
+          ],
+          "reviews": 3,
+          "rating": 4.333333333333333
+        }
+      ]
+    }
+  },
+  {
+    "model": "orders.ordersdata",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "createdAt": "2024-10-22T06:54:31.918Z",
+      "fullName": "Jhon",
+      "email": "Jhon@gmail.com",
+      "phone": "999999999",
+      "deliveryType": "ordinary",
+      "paymentType": "online",
+      "totalCost": "2490.35",
+      "status": "accepted",
+      "city": "Jhon",
+      "address": "Jhon",
+      "products": [
+        {
+          "id": 1,
+          "category": 1,
+          "price": "816.00",
+          "count": 1,
+          "date": "2024-10-22 06:53:19",
+          "title": "ACER Nitro AN515-43 Obsidian Black",
+          "description": "Игровой ноутбук подходящий именно Вам.",
+          "freeDelivery": false,
+          "images": [
+            {
+              "src": "/media/goods/product_1/images/acer-nitro.png",
+              "alt": "acer-nitro"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1,
+              "name": "Notebook"
+            },
+            {
+              "id": 2,
+              "name": "Game Notebook"
+            }
+          ],
+          "reviews": 3,
+          "rating": 4.333333333333333
+        },
+        {
+          "id": 7,
+          "category": 1,
+          "price": "936.35",
+          "count": 1,
+          "date": "2024-10-22 06:53:22",
+          "title": "Apple MacBook Air 13.3\" M1/8CPU/7GPU 8/256GB Silver",
+          "description": "MacBook Air — самый тонкий и лёгкий ноутбук Apple",
+          "freeDelivery": false,
+          "images": [
+            {
+              "src": "/media/goods/product_7/images/thumb_500x500_apple-macbook.png",
+              "alt": "1"
+            },
+            {
+              "src": "/media/goods/product_7/images/thumb_500x500_apple-macbook1.png",
+              "alt": "2"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1,
+              "name": "Notebook"
+            },
+            {
+              "id": 3,
+              "name": "Office"
+            },
+            {
+              "id": 4,
+              "name": "Apple"
+            }
+          ],
+          "reviews": 0,
+          "rating": 0
+        },
+        {
+          "id": 10,
+          "category": 1,
+          "price": "738.00",
+          "count": 1,
+          "date": "2024-10-22 06:53:23",
+          "title": "NB ASUS 15.6\" ExpertBook B2 Flip B2502FBA",
+          "description": "Настроенный на то, чтобы превратить ваш бизнес в\r\nASUS ExpertBook B2 Flip",
+          "freeDelivery": true,
+          "images": [
+            {
+              "src": "/media/goods/product_10/images/thumb_500x500_nb-asus-156.png",
+              "alt": "1"
+            },
+            {
+              "src": "/media/goods/product_10/images/thumb_500x500_nb-asus-1561.png",
+              "alt": "2"
+            },
+            {
+              "src": "/media/goods/product_10/images/thumb_500x500_nb-asus-1562.png",
+              "alt": "3"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1,
+              "name": "Notebook"
+            },
+            {
+              "id": 3,
+              "name": "Office"
+            }
+          ],
+          "reviews": 0,
+          "rating": 0
+        }
+      ]
+    }
+  },
+  {
+    "model": "payment.payment",
+    "pk": 1,
+    "fields": {
+      "number": 9999999999999999,
+      "name": "Admin city",
+      "month": 12,
+      "year": 2024,
+      "code": 111
+    }
+  },
+  {
+    "model": "payment.payment",
+    "pk": 2,
+    "fields": {
+      "number": 9999999999999999,
+      "name": "John",
+      "month": 12,
+      "year": 2023,
+      "code": 111
+    }
+  },
+  {
+    "model": "payment.payment",
+    "pk": 3,
+    "fields": {
+      "number": 9999999999999999,
+      "name": "Jhon",
+      "month": 12,
+      "year": 2023,
+      "code": 111
+    }
+  }
+]
