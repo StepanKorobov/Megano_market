@@ -1,0 +1,13 @@
+services:
+  megano:
+    container_name: megano
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stop_signal: SIGTERM
+    volumes:
+      - ./megano/db.sqlite3:/app/db.sqlite3
+      - ./megano/uploads:/app/uploads
+    restart: always
+    ports:
+      - "8000:8000"
